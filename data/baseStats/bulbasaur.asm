@@ -1,8 +1,8 @@
 MonBaseStats:
 db DEX_BULBASAUR ; pokedex id
 db 45 ; base hp
-db 49 ; base attack
-db 49 ; base defense
+db 50 ; base attack
+db 50 ; base defense
 db 45 ; base speed
 db 65 ; base special
 db GRASS ; species type 1

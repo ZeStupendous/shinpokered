@@ -1,7 +1,8 @@
 
 ; The rst vectors are unused.
 SECTION "rst 00", ROM0 [$00]
-	rst $38
+_Bankswitch::
+    jp Bankswitch
 SECTION "rst 08", ROM0 [$08]
 	rst $38
 SECTION "rst 10", ROM0 [$10]

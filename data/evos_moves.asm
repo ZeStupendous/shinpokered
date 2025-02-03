@@ -302,8 +302,8 @@ IvysaurEvosMoves:
 	db 22, POISONPOWDER
 	db 30, RAZOR_LEAF
 	db 38, GROWTH
-	db 46, SLEEP_POWDER
-	db 54, SOLARBEAM
+	db 42, SLEEP_POWDER
+	db 50, SOLARBEAM
 	db 0
 
 ExeggutorEvosMoves:
@@ -430,11 +430,13 @@ ArcanineEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, EMBER
+	db 16, EMBER
+	db 19, LEER
 	db 20, BITE
-	db 30, LEER
-	db 40, TAKE_DOWN
-	db 50, FLAMETHROWER
+	db 24, TAKE_DOWN
+	db 35, FLAMETHROWER
+	db 39, AGILITY
+	db 48, FIRE_SPIN
 	db 0
 
 MewEvosMoves:
@@ -576,11 +578,13 @@ GrowlitheEvosMoves:
 	db EV_ITEM, FIRE_STONE, 1, ARCANINE
 	db 0
 ; Learnset
-	db 18, EMBER
-	db 23, LEER
-	db 30, TAKE_DOWN
+	db 16, EMBER
+	db 19, LEER
+	db 20, BITE
+	db 24, TAKE_DOWN
+	db 35, FLAMETHROWER
 	db 39, AGILITY
-	db 50, FLAMETHROWER
+	db 48, FIRE_SPIN
 	db 0
 
 OnixEvosMoves:
@@ -634,7 +638,7 @@ SlowpokeEvosMoves:
 KadabraEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, ALAKAZAM
-	db EV_ITEM, MOON_STONE, 35, ALAKAZAM
+	db EV_ITEM, MOON_STONE, 37, ALAKAZAM
 	db 0
 ; Learnset	;joenote - added Kinesis to be learned upon evolving
 	db 16, KINESIS
@@ -649,7 +653,7 @@ KadabraEvosMoves:
 GravelerEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, GOLEM
-	db EV_ITEM, FIRE_STONE, 35, GOLEM
+	db EV_ITEM, FIRE_STONE, 37, GOLEM
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
@@ -677,7 +681,7 @@ ChanseyEvosMoves:
 MachokeEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, MACHAMP
-	db EV_ITEM, LEAF_STONE, 35, MACHAMP
+	db EV_ITEM, LEAF_STONE, 37, MACHAMP
 	db 0
 ; Learnset
 	db 20, LOW_KICK
@@ -1308,7 +1312,8 @@ EeveeEvosMoves:
 ; Learnset
 	db 8, SAND_ATTACK
 	db 16, GROWL
-	db 23, QUICK_ATTACK
+	db 17, QUICK_ATTACK
+	db 20, DOUBLE_KICK
 	db 30, BITE
 	db 31, TAIL_WHIP
 	db 36, FOCUS_ENERGY
@@ -1320,18 +1325,16 @@ FlareonEvosMoves:
 	db 0
 ; Learnset
 	db 8, SAND_ATTACK
-	db 16, GROWL
+	db 10, LEER
 	db 23, QUICK_ATTACK
-	db 30, BITE
-	db 31, EMBER
-	db 36, FIRE_SPIN
-	db 37, TAIL_WHIP
-	db 40, BITE
-	db 42, LEER
-	db 44, FIRE_SPIN
-	db 47, SMOG
-	db 48, RAGE
-	db 52, FLAMETHROWER
+	db 26, EMBER
+	db 30, DOUBLE_KICK
+	db 36, FLAMETHROWER
+	db 39, DOUBLE_EDGE
+	db 41, GROWTH
+	db 45, SMOG
+	db 47, FIRE_SPIN
+	db 52, FIRE_BLAST
 	db 0
 
 JolteonEvosMoves:
@@ -1339,16 +1342,13 @@ JolteonEvosMoves:
 	db 0
 ; Learnset
 	db 8, SAND_ATTACK
-	db 16, GROWL
 	db 23, QUICK_ATTACK
+	db 26, THUNDERSHOCK
 	db 30, DOUBLE_KICK
-	db 31, THUNDERSHOCK
-	db 36, PIN_MISSILE
-	db 37, TAIL_WHIP
-	db 40, DOUBLE_KICK
-	db 42, THUNDER_WAVE
-	db 44, AGILITY
-	db 48, PIN_MISSILE
+	db 36, THUNDERBOLT
+	db 39, PIN_MISSILE
+	db 41, AGILITY
+	db 47, THUNDER_WAVE
 	db 52, THUNDER
 	db 0
 
@@ -1357,17 +1357,15 @@ VaporeonEvosMoves:
 	db 0
 ; Learnset
 	db 8, SAND_ATTACK
-	db 16, GROWL
+	db 16, WATER_GUN
 	db 23, QUICK_ATTACK
+	db 26, BUBBLEBEAM
 	db 30, BITE
-	db 31, WATER_GUN
 	db 36, AURORA_BEAM
-	db 37, TAIL_WHIP
-	db 40, BITE
-	db 42, ACID_ARMOR
-	db 44, HAZE
-	db 47, AURORA_BEAM
-	db 48, MIST
+	db 39, HAZE
+	db 41, ACID_ARMOR
+	db 43, MIST
+	db 47, REST
 	db 52, HYDRO_PUMP
 	db 0
 
@@ -1646,8 +1644,10 @@ SnorlaxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 35, BODY_SLAM
-	db 41, HARDEN
+	db 29, HEADBUTT
+	db 33, HARDEN
+	db 36, REST
+	db 43, BODY_SLAM
 	db 48, DOUBLE_EDGE
 	db 56, HYPER_BEAM
 	db 0
@@ -1787,7 +1787,7 @@ MissingNo92EvosMoves:
 HaunterEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, GENGAR
-	db EV_ITEM, THUNDER_STONE, 35, GENGAR
+	db EV_ITEM, THUNDER_STONE, 37, GENGAR
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
@@ -1861,8 +1861,8 @@ BulbasaurEvosMoves:
 	db 20, POISONPOWDER
 	db 27, RAZOR_LEAF
 	db 34, GROWTH
-	db 41, SLEEP_POWDER
-	db 48, SOLARBEAM
+	db 37, SLEEP_POWDER
+	db 46, SOLARBEAM
 	db 0
 
 VenusaurEvosMoves:
@@ -1874,8 +1874,8 @@ VenusaurEvosMoves:
 	db 22, POISONPOWDER
 	db 30, RAZOR_LEAF
 	db 43, GROWTH
-	db 55, SLEEP_POWDER
-	db 65, SOLARBEAM
+	db 50, SLEEP_POWDER
+	db 57, SOLARBEAM
 	db 0
 
 TentacruelEvosMoves:
@@ -2091,10 +2091,10 @@ CharmanderEvosMoves:
 ; Learnset
 	db 9, EMBER
 	db 15, LEER
-	db 22, RAGE
-	db 30, SLASH
-	db 38, FLAMETHROWER
-	db 46, FIRE_SPIN
+	db 20, RAGE
+	db 26, SLASH
+	db 33, FLAMETHROWER
+	db 42, FIRE_SPIN
 	db 0
 
 SquirtleEvosMoves:
@@ -2119,8 +2119,8 @@ CharmeleonEvosMoves:
 	db 15, LEER
 	db 24, RAGE
 	db 33, SLASH
-	db 42, FLAMETHROWER
-	db 56, FIRE_SPIN
+	db 39, FLAMETHROWER
+	db 47, FIRE_SPIN
 	db 0
 
 WartortleEvosMoves:
@@ -2143,9 +2143,10 @@ CharizardEvosMoves:
 	db 9, EMBER
 	db 15, LEER
 	db 24, RAGE
-	db 36, SLASH
-	db 46, FLAMETHROWER
-	db 55, FIRE_SPIN
+	db 33, SLASH
+	db 36, WING_ATTACK
+	db 42, FLAMETHROWER
+	db 54, FIRE_SPIN
 	db 0
 
 MissingNoB5EvosMoves:

@@ -1,8 +1,8 @@
 db DEX_RAPIDASH ; pokedex id
-db 65 ; base hp
+db 70 ; base hp
 db 100 ; base attack
 db 70 ; base defense
-db 105 ; base speed
+db 115 ; base speed
 db 80 ; base special
 db FIRE ; species type 1
 db FIRE ; species type 2

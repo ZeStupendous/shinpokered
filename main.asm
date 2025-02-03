@@ -1693,8 +1693,8 @@ SECTION "bank1C",ROMX,BANK[$1C]
 
 ;INCLUDE "engine/gamefreak.asm"	;gbcnote - moved to another bank to make space
 INCLUDE "engine/hall_of_fame.asm"
-INCLUDE "engine/overworld/healing_machine.asm"
-INCLUDE "engine/overworld/player_animations.asm"
+;INCLUDE "engine/overworld/healing_machine.asm" ; - moved to another bank to make space
+;INCLUDE "engine/overworld/player_animations.asm" ; - moved to another bank to make space
 INCLUDE "engine/battle/ghost_marowak_anim.asm"
 INCLUDE "engine/battle/battle_transitions.asm"
 INCLUDE "engine/town_map.asm"
@@ -1929,6 +1929,8 @@ INCLUDE "engine/gamefreak.asm"	;gbcnote - moved here to make space
 INCLUDE "engine/in_game_trades.asm"	;joenote - moved here to make space
 INCLUDE "engine/learn_move.asm"	;joenote - moved in order to have more space
 INCLUDE "engine/overworld/elevator.asm"	;joenote - moving this to make space
+INCLUDE "engine/overworld/healing_machine.asm"
+INCLUDE "engine/overworld/player_animations.asm"
 
 INCLUDE "custom_functions/func_gamma.asm"
 INCLUDE "custom_functions/func_extra_menu.asm"

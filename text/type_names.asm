@@ -8,7 +8,7 @@ TypeNames:
 	dw .Rock
 	dw .Bird
 	dw .Bug
-	dw .Ghost
+	dw .Dragon
 
 	dw .Normal
 	dw .Normal
@@ -28,21 +28,21 @@ TypeNames:
 	dw .Electric
 	dw .Psychic
 	dw .Ice
-	dw .Dragon
+	dw .Ghost
 
 .Normal:   db "NORMAL@"
 .Fighting: db "FIGHTING@"
 .Flying:   db "FLYING@"
 .Poison:   db "POISON@"
+.Ground:   db "GROUND@"
+.Rock:     db "ROCK@"
+.Bird:     db "TYPELESS@"
+.Bug:      db "BUG@"
+.Dragon:   db "DRAGON@"
 .Fire:     db "FIRE@"
 .Water:    db "WATER@"
 .Grass:    db "GRASS@"
 .Electric: db "ELECTRIC@"
 .Psychic:  db "PSYCHIC@"
 .Ice:      db "ICE@"
-.Ground:   db "GROUND@"
-.Rock:     db "ROCK@"
-.Bird:     db "TYPELESS@"	;joenote - Bird type will be used as a neutral typless dummy type for Struggle
-.Bug:      db "BUG@"
 .Ghost:    db "GHOST@"
-.Dragon:   db "DRAGON@"

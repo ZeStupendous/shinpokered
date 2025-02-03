@@ -1,7 +1,7 @@
 db DEX_IVYSAUR ; pokedex id
 db 60 ; base hp
-db 62 ; base attack
-db 63 ; base defense
+db 65 ; base attack
+db 65 ; base defense
 db 60 ; base speed
 db 80 ; base special
 db GRASS ; species type 1

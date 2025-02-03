@@ -30,16 +30,16 @@ ENDC
 
 PrizeMenuMon1Cost:
 IF DEF(_ENCRED)
-	coins 180
-	coins 500
+	coins 230
+	coins 400
 	coins 1200
 ELIF DEF(_ENCBLUEJP)
-	coins 150
-	coins 620
+	coins 180
+	coins 520
 	coins 1000
 ELIF DEF(_ENCBLUEGREEN)
-	coins 120
-	coins 750
+	coins 200
+	coins 550
 	coins 1200
 ENDC
 	db "@"
@@ -63,16 +63,16 @@ ENDC
 PrizeMenuMon2Cost:
 IF DEF(_ENCRED)
 	coins 2500
-	coins 5200
-	coins 9999
+	coins 3500
+	coins 5000
 ELIF DEF(_ENCBLUEJP)
 	coins 2500
-	coins 4600
-	coins 6500
+	coins 5600
+	coins 5800
 ELIF DEF(_ENCBLUEGREEN)
-	coins 2800
-	coins 4600
-	coins 6500
+	coins 2500
+	coins 3000
+	coins 4500
 ENDC
 	db "@"
 
@@ -83,7 +83,7 @@ PrizeMenuTMsEntries:
 	db "@"
 
 PrizeMenuTMsCost:
-	coins 3300
-	coins 5500
-	coins 7700
+	coins 2500
+	coins 4400
+	coins 5000
 	db "@"

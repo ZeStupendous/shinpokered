@@ -1,9 +1,9 @@
 db DEX_CHARMANDER ; pokedex id
-db 39 ; base hp
-db 52 ; base attack
-db 43 ; base defense
+db 40 ; base hp
+db 55 ; base attack
+db 45 ; base defense
 db 65 ; base speed
-db 50 ; base special
+db 55 ; base special
 db FIRE ; species type 1
 db FIRE ; species type 2
 db 45 ; catch rate

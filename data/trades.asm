@@ -39,7 +39,7 @@ ELIF DEF(_ENCBLUEGREEN)
 ELIF DEF(_ENCRED)	;joenote - swap the sexes of the Nidos for red version and alter the beedrill trade
 	db NIDORINA,  NIDORINO, 0,"TERRY@@@@@@"
 	db ABRA,      MR_MIME,  0,"MARCEL@@@@@"
-	db BEEDRILL, BUTTERFREE,2,"PIPPIN@@@@@"
+	db BEEDRILL,  BUTTERFREE,2,"PIPPIN@@@@@"
 	db PONYTA,    SEEL,     0,"SAILOR@@@@@"
 	db SPEAROW,   FARFETCHD,2,"DUX@@@@@@@@"
 	db SLOWBRO,   LICKITUNG,0,"MARC@@@@@@@"

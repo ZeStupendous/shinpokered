@@ -139,8 +139,9 @@ SpecialTrainerMoves:
 	db 2,2,COUNTER
 	;rapidash - tail whip, stomp, double-edge, fire spin
 	db 3,3,DOUBLE_EDGE
-	;arcanine - fire blast, bite, leer, takedown
-	db 4,1,FIRE_BLAST
+	;arcanine - bite, takedown, fire blast, leer
+	db 4,3,FIRE_BLAST
+	db 4,4,LEER
 	db 0
 	
 	db GIOVANNI,$3
@@ -246,10 +247,10 @@ SpecialTrainerMoves:
 	db 3,2,EARTHQUAKE
 	db 3,3,ROCK_SLIDE
 	db 3,4,TAKE_DOWN
-	;arcanine - reflect, rest, double edge, flamethrower
+	;arcanine - reflect, flamethrower, rest, double edge
 	db 4,1,REFLECT
-	db 4,2,REST
-	db 4,3,DOUBLE_EDGE
+	db 4,3,REST
+	db 4,4,DOUBLE_EDGE
 	;exeggutor - leech seed, stomp, solar beam, hypnosis
 	db 5,1,LEECH_SEED
 	;blastoise - blizzard, reflect, skull bash, hydro pump
@@ -273,10 +274,10 @@ SpecialTrainerMoves:
 	;gyarados - ice beam, body slam, hydro pump, hyperbeam
 	db 4,1,ICE_BEAM
 	db 4,2,BODY_SLAM
-	;arcanine - reflect, rest, double edge, flamethrower
+	;arcanine - reflect, flamethrower, rest, double edge
 	db 5,1,REFLECT
-	db 5,2,REST
-	db 5,3,DOUBLE_EDGE
+	db 5,3,REST
+	db 5,4,DOUBLE_EDGE
 	;venusaur - razor leaf, toxic, sleep powder, solar beam
 	db 6,2,TOXIC
 	db 0
@@ -299,8 +300,8 @@ SpecialTrainerMoves:
 	;gyarados - ice beam, body slam, hydro pump, hyperbeam
 	db 5,1,ICE_BEAM
 	db 5,2,BODY_SLAM
-	;charizard - fly, slash, fire blast, fire spin
-	db 6,1,FLY
+	;charizard - slash, fly, fire blast, fire spin
+	db 6,2,FLY
 	db 6,3,FIRE_BLAST
 	db 0
 
@@ -311,13 +312,14 @@ SpecialTrainerMoves:
 	db 1,3,THUNDERBOLT
 	db 1,4,HYPER_BEAM
 	;exeggutor - reflect, stomp, solarbeam, hypnosis
-	;arcanine - bite, fire blast, takedown, flamethrower
-	db 3,2,FIRE_BLAST
+	;arcanine - takedown, flamethrower, bite, fire blast
+	db 3,3,BITE
+	db 3,4,FIRE_BLAST
 	;blastoise - bite, withdraw, blizzard, hydro pump
 	db 4,3,BLIZZARD
-	;gyarados - thunderbolt, ice beam, hydro pump, hyper beam
-	db 5,1,THUNDERBOLT
-	db 5,2,ICE_BEAM
+	;snorlax - amnesia, body slam, psychic, hyper beam
+	db 5,1, AMNESIA
+	db 5,3, PSYCHIC_M
 	db 0
 	
 	db PROF_OAK,$2
@@ -325,14 +327,17 @@ SpecialTrainerMoves:
 	db 1,2,EARTHQUAKE
 	db 1,3,THUNDERBOLT
 	db 1,4,HYPER_BEAM
-	;exeggutor - reflect, stomp, solarbeam, hypnosis
-	;arcanine - bite, fire blast, takedown, flamethrower
-	db 3,2,FIRE_BLAST
+	;gyarados - thunderbolt, ice beam, hydro pump, hyper beam
+	db 2,1,THUNDERBOLT
+	db 2,2,ICE_BEAM
+	;arcanine - takedown, flamethrower, bite, fire blast
+	db 3,3,BITE
+	db 3,4,FIRE_BLAST
 	;venusaur - razor leaf, growth, body slam, solar beam
 	db 4,3,BODY_SLAM
-	;gyarados - thunderbolt, ice beam, hydro pump, hyper beam
-	db 5,1,THUNDERBOLT
-	db 5,2,ICE_BEAM
+	;snorlax - amnesia, body slam, psychic, hyper beam
+	db 5,1, AMNESIA
+	db 5,3, PSYCHIC_M
 	db 0
 	
 	db PROF_OAK,$3
@@ -341,13 +346,14 @@ SpecialTrainerMoves:
 	db 1,3,THUNDERBOLT
 	db 1,4,HYPER_BEAM
 	;exeggutor - reflect, stomp, solarbeam, hypnosis
-	;arcanine - bite, fire blast, takedown, flamethrower
-	db 3,2,FIRE_BLAST
-	;charizard - toxic, slash, flamethrower, fire spin
-	db 4,1,TOXIC
 	;gyarados - thunderbolt, ice beam, hydro pump, hyper beam
-	db 5,1,THUNDERBOLT
-	db 5,2,ICE_BEAM
+	db 3,1,THUNDERBOLT
+	db 3,2,ICE_BEAM
+	;charizard - slash, toxic, flamethrower, fire spin
+	db 4,2,TOXIC
+	;snorlax - amnesia, body slam, psychic, hyper beam
+	db 5,1, AMNESIA
+	db 5,3, PSYCHIC_M
 	db 0
 	
 	;mr fuji battle
