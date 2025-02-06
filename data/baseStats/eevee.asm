@@ -1,7 +1,7 @@
 db DEX_EEVEE ; pokedex id
-db 55 ; base hp
-db 55 ; base attack
-db 50 ; base defense
+db 60 ; base hp
+db 60 ; base attack
+db 55 ; base defense
 db 55 ; base speed
 db 65 ; base special
 db NORMAL ; species type 1
